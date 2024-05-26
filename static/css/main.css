@@ -1,0 +1,12 @@
+@import "./layout/header.css";
+@import "./layout/footer.css";
+
+:root {
+  --cl-primary: ;
+  --cl-secondary: #f08620;
+  --cl-white: #ffffff;
+  --cl-text-primary: #020105;
+  --cl-text-secondary: #5d5d5f;
+  --lay-container-width: ;
+  --lay-container-padding: 16px;
+}

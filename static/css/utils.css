@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+.ft-primary {
+  font-family: "Prosto One", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.box {
+  max-width: calc(
+    var(--lay-container-width) + (var(--lay-container-padding) * 2)
+  );
+  width: 100%;
+  padding-inline: var(--lay-container-padding);
+  border: 1px solid red;
+}
+
+.section-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-block: 80px;
+}
