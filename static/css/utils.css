@@ -28,6 +28,7 @@
     var(--lay-container-width) + (var(--lay-container-padding) * 2)
   );
   width: 100%;
+  margin: 0 auto;
   padding-inline: var(--lay-container-padding);
   border: 1px solid red;
 }
@@ -37,4 +38,17 @@
   flex-direction: column;
   gap: 24px;
   padding-block: 80px;
+}
+
+.bg-gray {
+  background-color: var(--cl-apple-gray);
+}
+
+.bg-white {
+  background-color: var(--cl-white);
+}
+
+.text-sm {
+  font-size: 18px;
+  line-height: 27px;
 }
