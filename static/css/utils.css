@@ -53,10 +53,21 @@
   line-height: 27px;
 }
 
-.logo img {
+.logo {
   display: inline-block;
   max-width: 65px;
   width: 100%;
-  height: 74px;
-  object-fit: contain;
+  height: 76px;
+}
+
+.default-logo {
+  background-image: url("../../public/media/logo-white.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.scroll-logo {
+  background-image: url("../../public/media/logo-blue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

@@ -18,6 +18,7 @@
 .hero {
   position: relative;
   min-height: 540px;
+  max-height: 960px;
 }
 
 .hero.index {
@@ -41,7 +42,7 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding-top: 124px;
+  padding-top: 122px;
 }
 
 /* === SECTION INFO === */

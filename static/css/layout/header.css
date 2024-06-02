@@ -3,6 +3,15 @@
   top: 0;
   width: 100%;
   z-index: 99;
+  border-bottom: 1px solid var(--cl-white);
+  background-color: unset;
+  transition: 0.3s;
+  color: var(--cl-white);
+}
+
+.header.scroll {
+  background-color: var(--cl-white);
+  color: var(--cl-black);
 }
 
 .header-inner {
@@ -10,7 +19,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding-block: 22px;
+  padding-block: 20px;
 }
 
 .header-inner-nav-wrapper {
@@ -34,8 +43,8 @@
 .header-inner-navlink {
   font-size: 18px;
   line-height: 24px;
-  color: var(--cl-white);
   text-transform: uppercase;
+  color: currentColor;
   transition: 0.3s;
 }
 
@@ -48,6 +57,6 @@
 .header-inner-langs a {
   font-size: 18px;
   line-height: 24px;
-  color: var(--cl-white);
+  color: currentColor;
   transition: 0.3s;
 }
