@@ -32,18 +32,58 @@
     <!-- END THIRD-PARTY PACKAGES -->
 
     <!-- START CSS -->
-    <link rel="stylesheet" href="./static/css/main.css" />
+    <link rel="stylesheet" href="../static/css/main.css" />
     <!-- END CSS -->
   </head>
   <body>
     <!-- START CONTENT -->
     <div class="wrapper">
       <!-- START HEADER -->
-      <header></header>
+      <header class="header">
+        <div class="box header-inner">
+          <a href="../index.html" class="logo default">
+            <img src="../public/media/logo-white.svg" alt="Logo" />
+          </a>
+          <div class="header-inner-nav-wrapper">
+            <nav class="header-inner-nav">
+              <a href="../index.html" class="header-inner-navlink">Главная</a>
+              <a href="../pages/tours.html" class="header-inner-navlink"
+                >Туры</a
+              >
+              <a href="../pages/about.html" class="header-inner-navlink"
+                >О нас</a
+              >
+              <a href="../pages/contact.html" class="header-inner-navlink"
+                >Контакты</a
+              >
+            </nav>
+            <nav class="header-inner-langs">
+              <a href="#">Uz</a>
+              <a href="#">Ru</a>
+            </nav>
+          </div>
+        </div>
+      </header>
       <!-- END HEADER -->
 
       <!-- START MAIN -->
-      <main class="main"></main>
+      <main class="main">
+        <!-- START SECTION HERO -->
+        <section class="hero index">
+          <div class="box hero-inner"></div>
+        </section>
+        <!-- END SECTION HERO -->
+
+        <!-- START SECTION TOURS -->
+        <section>
+          <div class="box section-inner">
+            <div class="content-wrapper">
+              <div class="tours"></div>
+            </div>
+          </div>
+        </section>
+        <!-- END SECTION TOURS -->
+      </main>
       <!-- END MAIN -->
 
       <!-- START FOOTER -->
